@@ -1,0 +1,38 @@
+
+
+.form{
+    background-color: #fff;
+    padding: 60px 25px;
+    border-radius:8px ;
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
+    width: 400px;
+
+}
+.form .input-valid{
+    margin-bottom: 20px;
+    width: 100%;
+}
+label{
+    display: block;
+}
+.input-valid input{
+    width: 93%;
+   
+    padding: 5px 10px;
+}
+.errodata{
+    background-color: red;
+    
+}
+.succses{
+    border:2px solid green;
+
+}
+.error{
+    color: red;
+    padding: 7px 0;
+
+}

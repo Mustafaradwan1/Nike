@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Nike Register</title>
+</head>
+<body>
+    <div class="form-control">
+        <div class="box py-5">
+            <div class="icon mb-4 d-flex align-item-center">
+                <img src="img/fpage/logo.png" class="me-4">
+                <i class="fa-solid fa-person-walking fs-4"></i>
+            </div>
+            <h2 class="formHeading">Now let's make you a Nike Member.</h2>
+            <form class="form w-100" action="">
+                <div class="input-valid d-flex">
+                    <div class="firstNameInput pe-2 w-50">
+                        <input type="text" placeholder="FirstName" class="" name="fname" value="" id="fname">
+                        <div class="error1 error"></div>
+                    </div>
+                    <div class="firstNameInput ps-2 w-50">
+                        <input type="text" placeholder="LastName" name="lname" value="" id="lname">
+                        <div class="error2 error">
+                    </div>
+                </div>
+                </div>
+                <div class="input-valid">
+                    <input type="email" placeholder="Email" name="email" value="" id="email">
+                    <div class="error3 error"></div>
+                </div>
+                <div class="input-valid">
+                    <input type="password" placeholder="Password" name="password" value="" id="password">
+                    <div class="error4 error"></div>
+                </div>
+                <div class="input-valid">
+                    <input type="password" placeholder="RePassword" name="repassword" value="" id="repassword">
+                    <div class="error5 error"></div>
+                </div>
+                <div class="select">
+                    <select>
+                        <option value="" aria-readonly="">chose your gender</option>
+                        <option value="men">Men</option>
+                        <option value="women">Women</option>
+                    </select>
+                </div>
+                <div class="input-valid">
+                    <input type="date" required placeholder="Date Of Birth" name="date" value="" id="date">
+                    <div class="error6 error"></div>
+                </div>
+                <div class="input-check">
+                    <div class=" check d-flex mb-4">
+                        <input class="me-3" type="checkbox" name="checkbox" value="Sign Up" id="Sign Up">   
+                        <label for="Sign Up">sign up for emails to get update from nike on <br>
+                               products, offers and your member benefits
+                        </label> 
+                    </div>
+                    <div class="check d-flex align-item-start mb-5">
+                        <input class="me-3" type="checkbox" name="checkbox" value="I Agree" id="I Agree">
+                        <label for="I Agree">i agree to nike <a href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=privacyPolicy&country=EG&language=en&requestType=redirect&uxId=4fd2d5e7db76e0f85a6bb56721bd51df" target="_blank"><span>privacy policy.</span></a>and 
+                            <a href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=termsOfUse&country=EG&language=en&requestType=redirect&uxId=4fd2d5e7db76e0f85a6bb56721bd51df" target="_blank"><span> terms of us</span></a> </label> 
+                    </div>
+
+                </div>
+                <button type="submit" class="btn mt-2">create account</button>
+            </form>
+        </div>
+  
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+</html>

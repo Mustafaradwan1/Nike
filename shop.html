@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shop</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-top position-relative">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <div class="icon">
+                    <i class="fa-solid fa-person-walking"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="link">
+                    <ul class="d-flex justify-content-between align-items-center p-0 m-0">
+                        <li><a href="">Nike Refurbished</a></li>
+                        <li><a href="shop.html">Find a Store</a></li>
+                        <li><a href="">Help</a></li>
+                        <li><a href="register.html">Join Us</a></li>
+                        <li><a href="login.html">Sign In</a></li>
+                    </ul>
+                </div>
+                <div class="bars d-none">
+                    <div class="iconsBars d-flex">
+                        <a href="shop.html"> <i class="fa-solid fa-store fs-5 me-4"></i></a>
+                        <a href="login.html"><i class="fa-solid fa-user fs-5 me-4"></i></a>
+                        <i class="fa-solid fa-bars barsI fs-5 me-4"></i>
+                        <div class="icon shopIcon ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="numspan">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bot">
+            <div class="container-fluid flexbox ">
+                <div class="logo"><a href="index.html"><img src="img/fpage/logo.png" alt="logo"></a></div>
+                <div class="links">
+                    <ul class="d-flex align-items-center m-0 p-0">
+                         <i class="fa-solid fa-close close fs-3 me-4"></i>
+                        <li><a class="fw-bold" href="">New & Featured</a></li>
+                        <li><a class="fw-bold" href="">Men</a></li>
+                        <li><a class="fw-bold" href="">Women</a></li>
+                        <li><a class="fw-bold" href="">Kids</a></li>
+                        <li><a class="fw-bold" href="">Accessories</a></li>
+                        <li><a class="fw-bold" href="">Sale</a></li>
+                        <p>Become a Nike Member for the best products, inspiration and stories in sport. <span class="text-black fw-bold">Learn more</span></p>
+                        <div class="btns mt-5">
+                            <a href="register.html"> <button>Join us</button></a>
+                            <a href="login.html"><button>sign in</button></a>
+                        </div>
+                    </ul>
+                </div>
+                <div class="icons flexbox justify-content-end">
+                    <div class="icon shopIcon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="numspan">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="gotoLogin">
+        <div class="icon">
+            <i class="fa-solid fa-circle-xmark "></i>
+        </div>
+        <div class="box">
+            <h5>cant add product in cart </h5>
+            <a href="login.html">login in now</a>
+        </div>
+    </div>
+    <div class="contentData">
+        <i class="fa-solid fa-close mb-5"></i>
+        <div class="boxs">
+        </div>
+        <a href="Cart.html" class="Cart">Veiw All Cart</a>
+    </div>
+    <header>
+        <div class="showFilter flexbox mb-4">
+            <h4>Black Friday Sale(4695)</h4>
+            <div class="filter-sort d-flex">
+                <div class="fill d-flex align-items-center">
+                    <p class="m-0 fs-4"><span>Hide</span> Filters</p>
+                    <i class="fa-solid fa-filter ms-3"></i>
+                </div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Sort By
+                        </button>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                        <div class="accordion-body text-center">
+                            <ul class="sortData">
+                                <li value="high" class="high position-relative pb-2">price : high-low</li>
+                                <li value="low" class="low">price : low-high</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="boxDta">
+            <div class="row">
+                <div class="col lol hide col-lg-3 col-12 ps-4">
+                    <i class="fa-solid fa-close closeFilter d-none mb-5 fs-3"></i>
+                    <div class="filterLinks">
+                        <div class="boxLink">
+                            <div class="div order-1">
+                                <ul class="title mb-5">
+                                    <h5>title</h5>
+                                    <li value="shoes">shoes</li>
+                                    <li value="T-Shirt">T-Shirt</li>
+                                    <li value="Jackets">Jackets & Vests</li>
+                                    <li value="Shorts">Shorts</li>
+                                    <li value="pants">pants</li>
+                                    <li value="Leggings">Leggings</li>
+                                    <li value="Sports">Sports Bras</li>
+                                    <li value="Socks">Socks</li>
+                                    <li value="Accessories">Accessories & Equipment</li>
+                                </ul>
+                            </div>
+                            <div class="div order-4">
+                                <ul class="gender mb-5">
+                                    <h5>gender</h5>
+                                    <li>men</li>
+                                    <li>women</li>
+                                </ul>
+                            </div>
+                            <div class="check div mb-5 order-3">
+                                <h5>chose your price</h5>
+                                <input type="radio" value="0-50" name="radio" id="one"> 
+                                <label for="one">0-50</label><br>
+                                <input type="radio" value="50-100" name="radio" id="two"> 
+                                <label for="two">50-100</label><br>
+                                <input type="radio" value="100-150" name="radio" id="three"> 
+                                <label for="three">100-150</label><br>
+                                <input type="radio" value="over$150" name="radio" id="four"> 
+                                <label for="four">over$150</label>
+        
+                            </div>
+                            <div class="color div order-2">
+                                <h5 class="mb-4 ms-4">chose your color</h4>
+                                <div class="row">
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="purple" class="d-block"></span>
+                                            <p>purple</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="black" class="d-block"></span>
+                                            <p>black</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="red" class="d-block"></span>
+                                            <p>red</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="orange" class="d-block"></span>
+                                            <p>orange</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="blue"  class="d-block"></span>
+                                            <p>blue</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="white"  class="d-block"></span>
+                                            <p>white</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="brown" class="d-block"></span>
+                                            <p>brown</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="green" class="d-block"></span>
+                                            <p>green</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="yellow" class="d-block"></span>
+                                            <p>yellow</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="gray" class="d-block"></span>
+                                            <p>gray</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span value="pink" class="d-block"></span>
+                                            <p>pink</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-4 col-3 ">
+                                        <div class="box">
+                                            <span  value="mix" class="d-block mix"></span>
+                                            <p>mix</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col kol col-lg-9 col-12 mt-5">
+                    <div class="row row-data">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/shop.js" type=""></script>
+    <script src="./js/main.js" type=""></script>
+</body>
+</html>
